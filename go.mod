@@ -1,4 +1,4 @@
-module github.com/zoetrope/dummy-metrics
+module github.com/JacekZubielik/dummy-metrics
 
 go 1.19
 

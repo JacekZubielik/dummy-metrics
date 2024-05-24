@@ -8,7 +8,7 @@ RUN CGO_ENABLED=0 go build -o /go/bin/dummy-metrics
 
 FROM gcr.io/distroless/static-debian11
 
-LABEL org.opencontainers.image.source https://github.com/zoetrope/dummy-metrics
+LABEL org.opencontainers.image.source https://github.com/JacekZubielik/dummy-metrics
 
 COPY --from=build /go/bin/dummy-metrics /
 CMD ["/dummy-metrics"]
