@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JacekZubielik/dummy-metrics/cmd"
+import "github.com/jacekzubielik/dummy-metrics/cmd"
 
 func main() {
 	cmd.Execute()

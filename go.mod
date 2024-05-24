@@ -1,4 +1,4 @@
-module github.com/JacekZubielik/dummy-metrics
+module github.com/jacekzubielik/dummy-metrics
 
 go 1.19
 
